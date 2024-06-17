@@ -1,0 +1,55 @@
+
+.sb-principal-article{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.sb-principal-header{
+  display: flex;
+  align-items: center;
+  
+}
+
+.sb-imagen-avatar{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+
+}
+.sb-contenerdor-persona{
+  margin: 0px 15px 0px 15px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+
+}
+.sb-nombre-persona{
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sb-usuario-persona{
+  font-size: 0.8rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ .sb-botton-follow{
+  width: 85px;
+  height: 50px;
+  font-size: 0.7rem;
+  background-color: hsl(180, 45%, 39%);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.5s ease background-color;
+}
+
+.sb-botton-follow:hover {
+  background-color: rgb(18, 236, 156);
+  
+}
+
+.sb-botton-follow.is-followin{
+  background-color: hsl(118, 48%, 65%);
+}
