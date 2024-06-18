@@ -1,10 +1,9 @@
 
 .sb-principal-article{
-  display: flex;
-  justify-content: space-between;
-  
-  
+  margin: auto;
+  color: white ;  
 }
+
 .sb-principal-header{
   display: flex;
   align-items: center;
